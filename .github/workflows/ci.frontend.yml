@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Set up Node
-        uses: action/setup-node@4v
+        uses: actions/setup-node@4v
         with:
           node-version: "20"
       - name: Cliente Angular
