@@ -1,16 +1,16 @@
-name: CI Back-end Main
+name: CI Front-end Main
 
 on:
   push:
     branches:
       - 'main'
     paths:
-      - 'sgcmapi/**'
+      - 'sgcmapp/**'
   workflow_dispatch:
   workflow_call:
   pull_request:
     paths:
-      - 'sgcmapi/**'
+      - 'sgcmapp/**'
 
 jobs:
   build:
