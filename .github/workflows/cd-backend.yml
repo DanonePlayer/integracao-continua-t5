@@ -14,8 +14,10 @@ jobs:
         - name: Checkout
           uses: ations/checkout@v4
         - name: Deploy
-          uses: johnbeynon/rebder-deploy-action@v0.0.8
+          uses: johnbeynon/render-deploy-action@v0.0.8
           with:
             service-id: ${{ secrets.RENDER_SERVICE_ID }}
             api-key: ${{ secrets.RENDER_API_KEY }}
 
+# key da chave no render
+# rnd_GcUUrUhk3h1XdVtKvkBUiOhVMb0g
