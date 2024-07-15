@@ -18,6 +18,8 @@ jobs:
           with:
             service-id: ${{ secrets.RENDER_SERVICE_ID }}
             api-key: ${{ secrets.RENDER_API_KEY }}
+            wait-for-sucess: true
 
+            
 # key da chave no render
 # rnd_GcUUrUhk3h1XdVtKvkBUiOhVMb0g
